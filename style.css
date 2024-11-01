@@ -1,0 +1,108 @@
+body {
+  background-color: whitesmoke;
+  color: rgb(30, 30, 30 / 1.0);
+  font-family: Helvetica;
+  font-size: 16px;
+} 
+
+h1 {
+  color: black;
+  background-color: darkcyan;
+  border-style: double;
+  border-left-color: blanchedalmond;
+  border-right-color: blanchedalmond;
+  border-top-color: blanchedalmond;
+  border-bottom-color: blanchedalmond;
+  letter-spacing: 15px;
+  font-size: 70px;
+  font-family: serif;
+  font-weight: 650;
+  text-align: center;
+  
+}
+
+img {
+
+  width: 350px;
+
+}
+
+h2, h3 {
+  color: black;
+  background-color: darkcyan;
+  font-family: serif;
+  font-size: 25px;
+  font-weight: lighter;
+}
+
+a {
+
+	text-decoration-style: double;
+	text-decoration-color: slateblue;
+	font-weight: bolder;
+}
+a:hover {
+	color: mediumblue;
+}
+
+
+.yes {
+	border-radius: 50%;
+	box-shadow: 5px 5px 3px blueviolet;
+	width: 50px;
+}
+
+.base-design {
+	box-shadow: 5px 30px 10px;
+    padding: 60px;
+    margin: 50px;
+    border-radius: 25px;
+
+}
+
+/*custom design with class*/
+
+.background-black {
+ background-color: black;
+
+}
+
+.btn-white {
+ color: white;
+
+}
+
+.center-text {
+ text-align : center;
+}
+
+
+/*custom design with ID*/
+
+#leader {
+    box-shadow: 5px 5px 15px greenyellow;
+    width: 55px;
+}
+
+
+/*custom design medias*/
+
+@media (max-width: 900px) {
+ img {
+  width: 250px;
+
+@media (max-width: 750px) {
+ img {
+  width: 200px;
+
+@media (max-width: 500px) {
+ img {
+  width: 150px;
+ }
+
+ @media (max-width: 250px) {
+ img {
+  width: 50px;
+  
+}
+
